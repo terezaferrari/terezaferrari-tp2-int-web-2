@@ -19,6 +19,7 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+<<<<<<< HEAD
 body{
     background-color: v.$maCouleur-bg;
 }
@@ -31,3 +32,41 @@ p {
     color: v.$maCouleur;
   }
   
+=======
+
+svg{
+    color: v.$maCouleur-bg;
+    }
+
+
+footer{
+    background-color: v.$secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: none;
+    margin: none;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    }
+
+.item__contact{
+    color: v.$maCouleur-bg;
+    text-decoration: none;
+    margin: 5px;
+    &:hover{
+        border-bottom: 0.5px solid v.$maCouleur-bg;
+    }
+}
+ 
+svg{
+    color: v.$maCouleur-bg;
+    }
+
+.line-divisor {
+    border-bottom: 1px solid v.$maCouleur-bg;
+    padding-bottom: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+>>>>>>> branche-footer
