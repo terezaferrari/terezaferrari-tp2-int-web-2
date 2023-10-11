@@ -12147,4 +12147,39 @@ h1, .h1, h2, .h2, h3, .h3 {
 
 p {
   color: #E1E3E0;
+}
+
+svg {
+  color: #130f3b;
+}
+
+footer {
+  background-color: #CC7645;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: none;
+  margin: none;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.item__contact {
+  color: #130f3b;
+  text-decoration: none;
+  margin: 5px;
+}
+.item__contact:hover {
+  border-bottom: 0.5px solid #130f3b;
+}
+
+svg {
+  color: #130f3b;
+}
+
+.line-divisor {
+  border-bottom: 1px solid #130f3b;
+  padding-bottom: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=custom-bootstrap.css.map */

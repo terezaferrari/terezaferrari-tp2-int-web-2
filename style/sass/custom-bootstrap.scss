@@ -19,7 +19,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-<<<<<<< HEAD
 body{
     background-color: v.$maCouleur-bg;
 }
@@ -32,7 +31,6 @@ p {
     color: v.$maCouleur;
   }
   
-=======
 
 svg{
     color: v.$maCouleur-bg;
@@ -69,4 +67,3 @@ svg{
     margin-top: 20px;
     margin-bottom: 20px;
 } 
->>>>>>> branche-footer
