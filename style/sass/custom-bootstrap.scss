@@ -1,1 +1,33 @@
+@use "variables" as v;
+
+//variables:
+$primary: v.$primary;
+$secondary: v.$secondary;
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+//map de couleurs
+$custom-colors:(
+    "ma-couleur-custom": v.$maCouleur,
+    "ma-couleur-custom-foncee": darken(v.$maCouleur, 10),
+    "ma-couleur-bg": v.$maCouleur-bg //PAS DE VIRGULE!
+);
+
+//Fusion
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color: v.$maCouleur-bg;
+}
+
+h1, h2, h3 {
+    color: v.$maCouleur; 
+}
+
+p {
+    color: v.$maCouleur;
+  }
+  
